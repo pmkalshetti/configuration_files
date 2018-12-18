@@ -122,7 +122,4 @@ stty -ixon
 
 export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
-export GITHUB_ACCESS_TOKEN=ae08ed46df43d05010ea83c85f4ea44a99f50eac
 export TF_CPP_MIN_LOG_LEVEL="3"
-export INTERNET_UNAME=MTYzMDUwMDQ4
-export INTERNET_PASSWD=cHJhdGlrQDIy

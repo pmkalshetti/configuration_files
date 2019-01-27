@@ -1,0 +1,5 @@
+# vim swap files
+*.swp
+
+# Desktop service store files
+*.DS_Store

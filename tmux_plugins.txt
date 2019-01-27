@@ -1,0 +1,7 @@
+tmux-copycat
+tmux-pain-control
+tmux-prefix-highlight
+tmux-sensible
+tmux-yank
+tpm
+vim-tmux-navigator

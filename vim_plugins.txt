@@ -17,3 +17,4 @@ vim-fugitive
 vim-gitgutter
 vim-polyglot
 vim-surround-master
+vimtex-master

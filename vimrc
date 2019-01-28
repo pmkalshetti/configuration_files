@@ -24,6 +24,8 @@ let $PYTHONUNBUFFERED=1
 let g:airline#extensions#tabline#enabled = 1
 " Show just the filename
 let g:airline#extensions#tabline#fnamemod = ':t'
+" disable LaTeX-Box in polyglot so as to use vimtex
+let g:polyglot_disabled = ['latex']
 
 " miscellaneous 
 set nocompatible

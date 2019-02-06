@@ -9,8 +9,8 @@ set backspace=indent,eol,start
 nnoremap <silent> <F8> :TlistToggle<CR>
 nnoremap <esc><esc> :noh<return>
 nnoremap <Leader>f :ALEFix<CR>
-nmap <silent> <leader>aj: ALENext<CR>
-nmap <silent> <leader>ak: ALEPrevious<CR>
+nmap <silent> <leader>aj :ALENext<CR>
+nmap <silent> <leader>ak :ALEPrevious<CR>
 set pastetoggle=<F3>
 nmap <silent> <F9> :MarkdownPreview<CR>
 nmap <silent> <F10> :StopMarkdownPreview<CR>
@@ -43,3 +43,5 @@ set t_Co=256
 set autoindent
 set shiftwidth=2
 set foldcolumn=4
+set ttymouse=xterm2
+set mouse=a

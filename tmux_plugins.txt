@@ -1,3 +1,4 @@
+tmux-colors-solarized
 tmux-copycat
 tmux-pain-control
 tmux-prefix-highlight

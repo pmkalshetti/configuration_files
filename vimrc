@@ -1,3 +1,4 @@
+set encoding=utf-8
 " color scheme
 set termguicolors
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
@@ -19,6 +20,7 @@ nmap <Leader>n :NERDTreeToggle<CR>
 nmap <Leader>t :TagbarToggle<CR>
 nmap <Leader>g :YcmCompleter GoTo<CR>
 nmap <Leader>d :YcmCompleter GetType<CR>
+nmap <Leader>f :YcmCompleter FixIt<CR>
 nmap <Leader>m :MarkdownPreview<CR>
 let g:AutoPairsShortcutToggle='<Leader>b'
 

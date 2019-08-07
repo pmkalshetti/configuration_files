@@ -5,6 +5,7 @@ matchit
 nerdcommenter
 nerdtree
 restore_view.vim-master
+SimpylFold-master
 tagbar
 unimpaired
 vim-airline

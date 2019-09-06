@@ -7,7 +7,7 @@ set background=dark
 colorscheme solarized8_high
 
 " enable highlight for all searched matches
-set hlsearch 
+set hlsearch
 set incsearch
 
 " backspace key to work in insert mode
@@ -22,7 +22,7 @@ nmap <Leader>g :YcmCompleter GoTo<CR>
 nmap <Leader>d :YcmCompleter GetType<CR>
 nmap <Leader>f :YcmCompleter FixIt<CR>
 nmap <Leader>m :MarkdownPreview<CR>
-let g:AutoPairsShortcutToggle='<Leader>b'
+let g:AutoPairsShortcutToggle='<Leader>a'
 
 " customize plugins
 
@@ -46,10 +46,19 @@ let g:indent_guides_enable_on_vim_startup = 1
 " disable LaTeX-Box in polyglot so as to use vimtex
 let g:polyglot_disabled = ['latex']
 
-" miscellaneous 
+" enable latex autocomplete with youcompleteme
+if !exists('g:ycm_semantic_triggers')
+    let g:ycm_semantic_triggers = {}
+endif
+au VimEnter * let g:ycm_semantic_triggers.tex=g:vimtex#re#youcompleteme
+
+" vimtex place latex build files in separate dir
+let g:vimtex_compiler_latexmk = {'build_dir': 'build'}
+
+" miscellaneous
 set nocompatible
 filetype plugin indent on
-syntax enable 
+syntax enable
 set timeoutlen=5000
 set history=200
 set number
